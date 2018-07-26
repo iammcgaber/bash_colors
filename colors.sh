@@ -1,41 +1,38 @@
-# Regular
-blk=$'\e[0;30m' # Black - Regular
-red=$'\e[0;31m' # Red
-grn=$'\e[0;32m' # Green
-ylw=$'\e[0;33m' # Yellow
-blu=$'\e[0;34m' # Blue
-pur=$'\e[0;35m' # Purple
-cyn=$'\e[0;36m' # Cyan
-wht=$'\e[0;37m' # White
+black=$'\e[0;30m'   # Black - Regular
+red=$'\e[0;31m'   # Red
+green=$'\e[0;32m'   # Green
+yellow=$'\e[0;33m'   # Yellow
+blue=$'\e[0;34m'   # Blue
+purp=$'\e[0;35m'   # Purple
+cyan=$'\e[0;36m'   # Cyan
+white=$'\e[0;37m'   # White
 
-# Bold
-bblk=$'\e[1;30m'  # Black
+bblack=$'\e[1;30m'  # Black - Bold
 bred=$'\e[1;31m'  # Red
-bgrn=$'\e[1;32m'  # Green
-bylw=$'\e[1;33m'  # Yellow
-bblu=$'\e[1;34m'  # Blue
-bpur=$'\e[1;35m'  # Purple
-bcyn=$'\e[1;36m'  # Cyan
-bwht=$'\e[1;37m'  # White
+bgreen=$'\e[1;32m'  # Green
+byellww=$'\e[1;33m'  # Yellow
+bblue=$'\e[1;34m'  # Blue
+bpurp=$'\e[1;35m'  # Purple
+bcyan=$'\e[1;36m'  # Cyan
+bwhite=$'\e[1;37m'  # White
 
-# Underline
-ublk=$'\e[4;30m' # Black
-ured=$'\e[4;31m' # Red
-ugrn=$'\e[4;32m' # Green
-uylw=$'\e[4;33m' # Yellow
-ublu=$'\e[4;34m' # Blue
-upur=$'\e[4;35m' # Purple
-ucyn=$'\e[4;36m' # Cyan
-uwht=$'\e[4;37m' # White
+ublack=$'\e[4;30m'  # Black - Underline
+ured=$'\e[4;31m'  # Red
+ugreen=$'\e[4;32m'  # Green
+uyellow=$'\e[4;33m'  # Yellow
+ublue=$'\e[4;34m'  # Blue
+upurple=$'\e[4;35m'  # Purple
+ucyan=$'\e[4;36m'  # Cyan
+uwhite=$'\e[4;37m'  # White
 
-# Background
-bgblk=$'\e[40m'   # Black
+bgblack=$'\e[40m'   # Black - Background
 bgred=$'\e[41m'   # Red
-bggrn=$'\e[42m'   # Green
-bgylw=$'\e[43m'   # Yellow
-bgblu=$'\e[44m'   # Blue
-bgpur=$'\e[45m'   # Purple
-bgcyn=$'\e[46m'   # Cyan
-bgwht=$'\e[47m'   # White
+bggreen=$'\e[42m'   # Green
+bgyellow=$'\e[43m'   # Yellow
+bgblue=$'\e[44m'   # Blue
+bgpurple=$'\e[45m'   # Purple
+bgcyan=$'\e[46m'   # Cyan
+bgwhite=$'\e[47m'   # White
 
-clr=$'\e[0m' # Text Reset
+def=$'\e[0m'      # Default Color
+fore=$'\e[39m'    # Foreground Color
